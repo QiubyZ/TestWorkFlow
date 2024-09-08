@@ -1,0 +1,12 @@
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing
+        uses: QiubyZ/LearningWorkFlow@v1
+        with:
+           nama: Arif
